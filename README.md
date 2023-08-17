@@ -40,8 +40,19 @@ The "Add Device" tab enables you to create, update, and delete devices. You can 
     ```bash
     flask run
 Open your web browser and go to http://127.0.0.1:5000 to access the Restconf-Flask app.
-![Alt Text](https://"https://i.ibb.co/Fsqyrqy/1.jpg)
 
+![Alt Text](https://i.ibb.co/Fsqyrqy/1.jpg)
+
+6. Navigate to Add Devices Tab and Create a Device From Cisco Developer Sandbox:
+
+![Alt Text](https://i.ibb.co/k6T9qN0/2.jpg)
+
+![Alt Text](https://i.ibb.co/G0vC0QY/3.jpg)
+
+
+
+   
+  
 
    
    
