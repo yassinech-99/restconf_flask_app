@@ -31,6 +31,7 @@ The "Add Device" tab enables you to create, update, and delete devices. You can 
 
     ```bash
     export FLASK_APP=restconf_flask
+    flask shell
     from restconf_flask import db
     db.create_all()
     exit()
