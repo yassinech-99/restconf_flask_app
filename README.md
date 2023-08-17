@@ -40,7 +40,8 @@ The "Add Device" tab enables you to create, update, and delete devices. You can 
     ```bash
     flask run
 Open your web browser and go to http://127.0.0.1:5000 to access the Restconf-Flask app.
-<img src="https://i.ibb.co/Fsqyrqy/1.jpg" alt="1" border="0" />
+![Alt Text](https://"https://i.ibb.co/Fsqyrqy/1.jpg)
+
 
    
    
