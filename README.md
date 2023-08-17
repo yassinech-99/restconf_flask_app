@@ -1,6 +1,6 @@
 # restconf_flask_app
 Restconf-Flask is a simple web application that utilizes the Restconf API to retrieve information from the Cisco IOS XE datastore. This app allows you to explore and manage your devices using the provided features.
-live site here: http://restconfflask.pythonanywhere.com/admin/
+live site here: http://restconfflask.pythonanywhere.com
 
 ## Features
 
@@ -44,6 +44,12 @@ Open your web browser and go to http://127.0.0.1:5000 to access the Restconf-Fla
 ![Alt Text](https://i.ibb.co/Fsqyrqy/1.jpg)
 
 6. Navigate to Add Devices Tab and Create a Device From Cisco Developer Sandbox:
+   am using Cisco IOS XE Always on:
+   ```bash
+   Host = sandbox-iosxe-latest-1.cisco.com
+   Port = 443
+   Username = admin
+   password = C1sco12345
 
 ![Alt Text](https://i.ibb.co/k6T9qN0/2.jpg)
 
