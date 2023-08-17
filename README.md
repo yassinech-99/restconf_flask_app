@@ -54,6 +54,7 @@ Open your web browser and go to http://127.0.0.1:5000 to access the Restconf-Fla
 ![Alt Text](https://i.ibb.co/nL2shHj/5.jpg)
 
 Get Device Interfaces Inforamtion
+
 ![Alt Text](https://i.ibb.co/nkSX1vW/6.jpg)
 
 Save Device Configuration
