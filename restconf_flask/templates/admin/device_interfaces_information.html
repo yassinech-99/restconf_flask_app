@@ -1,0 +1,41 @@
+{% extends 'admin/master.html' %}
+
+{% block body %}
+    {{ super() }}
+    <div class="container">
+        <!-- Header with Device Hostname -->
+        <div class="alert alert-info mt-3">
+            <h4 class="alert-heading">Device Interfaces Information</h4>
+            <p class="mb-0">This is the {{ device.host }} interfaces information.</p>
+        </div>
+
+        <!-- Devices Table -->
+        <div class="row">
+            <div class="col-md-12 mt-3">
+                <table class="table table-bordered">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>Interface</th>
+                            <th>Description</th>
+                            <th>Address</th>
+                            <th>Enabled</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for interface in interfaces.items() %}
+                            <tr>
+                                <td>{{ interface[0] }}</td>
+                                <td>{{ interface[1]['description'] }}</td>
+                                <td>{{ interface[1]['address'] }}</td>
+                                <td>{{ interface[1]['enabled'] }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="mt-3">
+            <a href="{{ url_for('add-devices.index_view') }}" class="btn btn-secondary">Back to Add Devices</a>
+        </div>
+    </div>
+{% endblock %}

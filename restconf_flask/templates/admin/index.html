@@ -1,0 +1,42 @@
+{% extends 'admin/master.html' %}
+
+{% block body %}
+
+{{ super() }}
+<div class="container">
+    <!-- Existing content of the dashboard -->
+
+    <!-- Instructions and Descriptions Section -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="alert alert-info" role="alert">
+                <h4 class="alert-heading">Restconf-Flask</h4>
+                <p>This is a simple app that utilizes Restconf API to retrieve information from the Cisco IOS XE datastore.</p>
+                <hr>
+                <p class="mb-0">Feel free to explore and manage your devices using the provided features.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Device Tab Explanation -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Add Devices Tab</h5>
+                    <p class="card-text">The "Add Device" tab is used to create, update, and delete devices. also from the <b>With Selected</b> tab you can click:</p>
+                    <p><b>Get Interface Information:</b> to query device interfaces information.</p>
+                    <p><b>Get Device Configuraton:</b> to get the device configuration and save in a json format in the <b>config-files</b> directory.</p>
+                    <p><b>Send Configuration Set:</b>(comming soon) to upload configuration file in a json format used to make changes to the device datastore</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rest of the dashboard content -->
+    <div class="row">
+        <!-- ... Other content ... -->
+    </div>
+</div>
+{% endblock %}
+
