@@ -48,7 +48,9 @@ Open your web browser and go to http://127.0.0.1:5000 to access the Restconf-Fla
 
 ![Alt Text](https://i.ibb.co/G0vC0QY/3.jpg)
 
+
 7. Now that you have created a device you can:
+
 ![Alt Text](https://i.ibb.co/nL2shHj/5.jpg)
 
 Get Device Interfaces Inforamtion
