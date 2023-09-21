@@ -28,15 +28,19 @@ The "Add Device" tab enables you to create, update, and delete devices. You can 
 
    ```bash
     export FLASK_APP=restconf_flask
-4. Initialize the database:
+4. Set the SECRET_KEY environment variable
+
+   ```bash
+    export SECRET_KEY=yourkey
+5. Initialize the database:
 
     ```bash
-    export FLASK_APP=restconf_flask
+    
     flask shell
     from restconf_flask import db
     db.create_all()
     exit()
-5. Run the Flask application:
+6. Run the Flask application:
     ```bash
     flask run
 Open your web browser and go to http://127.0.0.1:5000 to access the Restconf-Flask app.
